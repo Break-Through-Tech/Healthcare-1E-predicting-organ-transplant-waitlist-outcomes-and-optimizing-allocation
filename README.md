@@ -24,6 +24,9 @@
 
 1. `git clone https://github.com/Break-Through-Tech/Healthcare-1D-predicting-organ-transplant-waitlist-outcomes-and-optimizing-allocation.git`
 2. `pip install -r requirements.txt`
+
+> If you are using a `venv`, after creating an activating the venv run `ipython kernel install --user --name=venv` to use your venv as the jupyter kernel.
+
 3. Run `jupyter lab` in the project root, and a window will pop up in your browser where you can run the notebooks
 
 ---

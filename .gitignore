@@ -1,1 +1,4 @@
 data/restricted
+
+notebooks/.ipynb_checkpoints/
+.venv/
