@@ -51,8 +51,8 @@ You can find your created Github Project board here:
 Wonderful job peeps! First lab done and here is what is next:
 
 - Complete due items! **Sept 13th at 11:59pm ET**:
-    - [Project Workspace Setup]()
-    - [Milestone #1 Task Planning]()
+    - [Project Workspace Setup](https://learn.ecornell.cornell.edu/courses/1934566/assignments/14801655)
+    - [Milestone #1 Task Planning](https://learn.ecornell.cornell.edu/courses/1934566/assignments/14801633)
 - Next meeting is **Saturday, Sept 19th, 12 to 3pm ET**.
     - Every team member is expected to put in 1 to 3 hours of work outside these workshop Saturday time slots.
 - Attend office hours - [Office Hours](../office-hours.md)
