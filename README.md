@@ -27,7 +27,8 @@
 
 > If you are using a `venv`, after creating an activating the venv run `ipython kernel install --user --name=venv` to use your venv as the jupyter kernel.
 
-3. Run `jupyter lab` in the project root, and a window will pop up in your browser where you can run the notebooks
+3. Run `jupyter lab` in the project root, and a window will pop up in your browser where you can run any of the notebook.
+*Note: sometimes, especially for Linux machines, some additional system packages may need to be installed to get certain python packages to work*
 
 ---
 
