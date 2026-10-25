@@ -5,3 +5,4 @@ data/restricted
 
 notebooks/data/processed
 notebooks/baseline-models/cleaned_data_final.csv
+.env
