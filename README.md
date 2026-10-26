@@ -28,6 +28,7 @@
 > If you are using a `venv`, after creating an activating the venv run `ipython kernel install --user --name=venv` to use your venv as the jupyter kernel.
 
 3. Run `jupyter lab` in the project root, and a window will pop up in your browser where you can run any of the notebook.
+4. 
 *Note: sometimes, especially for Linux machines, some additional system packages may need to be installed to get certain python packages to work.*
 
 4. If you need GPU support for XGBoost models, create `.env` at the project root and add `GPU=your-gpu-framework`, e.g. `GPU=cuda` for NVIDIA GPUs. Then restart your notebook/kernel.
