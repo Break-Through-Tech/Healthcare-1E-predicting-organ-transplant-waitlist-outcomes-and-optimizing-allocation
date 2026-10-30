@@ -2,12 +2,12 @@
 
 ### 👥 **Team Members**
 
-| Name                | GitHub Handle                                                      | Contribution |
-|---------------------|--------------------------------------------------------------------|--------------|
-| Naya Singhania      | [@nayasinghania](https://github.com/nayasinghania)                 |              |
-| Jocelyn Lew         | [@JocelynLew](https://github.com/JocelynLew)                       |              |
-| Tracy Chen          | [@TracyZexiChen](https://github.com/TracyZexiChen)                 |              |
-| Maria Gonzalez      | [@mariafernandagonzalez](https://github.com/mariafernandagonzalez) |              |
+| Name                | GitHub Handle                                                      | Contribution                                    |
+|---------------------|--------------------------------------------------------------------|-------------------------------------------------|
+| Naya Singhania      | [@nayasinghania](https://github.com/nayasinghania)                 | Feature analysis, data pipeline, tree ensembles |
+| Jocelyn Lew         | [@JocelynLew](https://github.com/JocelynLew)                       |                                                 |
+| Tracy Chen          | [@TracyZexiChen](https://github.com/TracyZexiChen)                 |                                                 |
+| Maria Gonzalez      | [@mariafernandagonzalez](https://github.com/mariafernandagonzalez) |                                                 |
 
 ---
 
