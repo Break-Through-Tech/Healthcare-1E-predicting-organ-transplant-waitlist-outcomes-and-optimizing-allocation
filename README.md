@@ -2,7 +2,7 @@
 
 ### 👥 **Team Members**
 
-| Name                | GitHub Handle                                                      | Contribution                                    |
+| Name                | GitHub Handle                                                      | Contributions                                   |
 |---------------------|--------------------------------------------------------------------|-------------------------------------------------|
 | Naya Singhania      | [@nayasinghania](https://github.com/nayasinghania)                 | Feature analysis, data pipeline, tree ensembles |
 | Jocelyn Lew         | [@JocelynLew](https://github.com/JocelynLew)                       |                                                 |
