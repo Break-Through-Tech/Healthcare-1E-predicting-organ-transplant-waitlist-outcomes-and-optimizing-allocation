@@ -105,24 +105,13 @@ Not only does this project have real-world potential, but it will give us the ha
 ### What Would Be Done Differently
 
 ### Additional Datasets / Techniques to Explore
-* What additional datasets or techniques would you explore?
-
----
-
-## 📝 **License**
-
-Specify how your project can be used by others. Choose an appropriate license and link it here (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type. 
-
-This project is licensed under the [name of license] License.
-
----
-
-## 📄 **References**
-
-- https://github.com/baheldeepti/Kideny_Allocation_OPTN/blob/main/analysis/PAPER.md
 
 ---
 
 ## 🙏 **Acknowledgements**
 
 Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+
+---
+
+*This project is licensed under the [name of license] License.*
