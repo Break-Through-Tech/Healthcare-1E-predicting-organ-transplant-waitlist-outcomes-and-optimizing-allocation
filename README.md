@@ -63,7 +63,12 @@ Not only does this project have real-world potential, but it will give us the ha
 - `GridSearchCV` also allows for simple cross-validation, so we used 5 folds on each model
 - These models were evaluated on ...
 
-### Example
+### Logistic Regression
+* Model(s) used (e.g., CNN with transfer learning, regression models)
+* Feature selection and Hyperparameter tuning strategies
+* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+
+### Survival Modelling
 * Model(s) used (e.g., CNN with transfer learning, regression models)
 * Feature selection and Hyperparameter tuning strategies
 * Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
