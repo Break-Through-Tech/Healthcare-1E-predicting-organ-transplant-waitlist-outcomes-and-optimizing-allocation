@@ -29,9 +29,9 @@
 
 3. Run `jupyter lab` in the project root, and a window will pop up in your browser where you can run any of the notebook.
 
-*Note: sometimes, especially for Linux machines, some additional system packages may need to be installed to get certain python packages to work.*
+> Sometimes, especially for Linux machines, additional system packages may need to be installed to allow functionality for certain Python packages. *
 
-4. If you need GPU support for XGBoost models, create `.env` at the project root and add `GPU=your-gpu-framework`, e.g. `GPU=cuda` for NVIDIA GPUs. Then restart your notebook/kernel.
+4. If you want GPU support for faster training of XGBoost models, create a file named `.env` at the project root and add `GPU=your-gpu-framework` (e.g. `GPU=cuda` for NVIDIA GPUs). Then restart your notebook/kernel.
 
 ---
 
@@ -46,8 +46,7 @@ Not only does this project have real-world potential, but it will give us the ha
 ---
 
 ## 📊 **Data Exploration**
-
-* The dataset(s) used: origin, format, size, type of data
+- The OPTN Kidney Transplant Waitlist dataset was used, provided in a GZIP archive of 20.3 MB, containing 494,862 rows and 38 columns. 
 * Data exploration and preprocessing approaches
 * Insights from your Exploratory Data Analysis (EDA)
 * Challenges and assumptions when working with the dataset(s)
@@ -77,6 +76,19 @@ Not only does this project have real-world potential, but it will give us the ha
 
 ## 📈 **Results & Key Findings**
 
+### Tree Ensembles
+* Performance metrics (e.g., Accuracy, F1 score, RMSE)
+* How your model performed
+* Insights from evaluating model fairness
+* Visualizations: Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+
+### Logistic Regression
+* Performance metrics (e.g., Accuracy, F1 score, RMSE)
+* How your model performed
+* Insights from evaluating model fairness
+* Visualizations: Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+
+### Survival Modelling
 * Performance metrics (e.g., Accuracy, F1 score, RMSE)
 * How your model performed
 * Insights from evaluating model fairness
@@ -86,8 +98,11 @@ Not only does this project have real-world potential, but it will give us the ha
 
 ## 🚀 **Next Steps**
 
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
+### Model Limitations
+
+### What Would Be Done Differently
+
+### Additional Datasets / Techniques to Explore
 * What additional datasets or techniques would you explore?
 
 ---
