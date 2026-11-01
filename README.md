@@ -23,15 +23,17 @@
 ## 👩🏽‍💻 **Setup and Installation**
 
 1. `git clone https://github.com/Break-Through-Tech/Healthcare-1E-predicting-organ-transplant-waitlist-outcomes-and-optimizing-allocation.git`
+
 2. `pip install -r requirements.txt`
 
 > If you are using a `venv`, after creating an activating the venv run `ipython kernel install --user --name=venv` to use your venv as the jupyter kernel.
 
-3. Run `jupyter lab` in the project root, and a window will pop up in your browser where you can run any of the notebook.
+> Sometimes, especially for Linux machines, additional system packages may need to be installed to allow functionality for certain Python packages.
 
-> Sometimes, especially for Linux machines, additional system packages may need to be installed to allow functionality for certain Python packages. *
+> If you want GPU support for faster training of XGBoost models, create a file named `.env` at the project root and add `GPU=your-gpu-framework` (e.g. `GPU=cuda` for NVIDIA GPUs).
 
-4. If you want GPU support for faster training of XGBoost models, create a file named `.env` at the project root and add `GPU=your-gpu-framework` (e.g. `GPU=cuda` for NVIDIA GPUs). Then restart your notebook/kernel.
+3. Run `jupyter lab` in the project root, and a window will pop up in your browser where you can run any of the notebooks.
+
 
 ---
 
