@@ -2,12 +2,12 @@
 
 ### 👥 **Team Members**
 
-| Name                                                         | Contributions                                           |
-|--------------------------------------------------------------|---------------------------------------------------------|
-| [Naya Singhania](https://github.com/nayasinghania)           | Feature analysis, data pipeline, tree ensembles         |
-| [Jocelyn Lew](https://github.com/JocelynLew)                 |                                                         |
-| [Tracy Chen](https://github.com/TracyZexiChen)               |                                                         |
-| [Maria Gonzalez](https://github.com/mariafernandagonzalez)   |                                                         |
+| Name                                                         | Contributions                                 |
+|------------------------------------------------------------|-------------------------------------------------|
+| [Naya Singhania](https://github.com/nayasinghania)         | Feature analysis, data pipeline, tree ensembles |
+| [Jocelyn Lew](https://github.com/JocelynLew)               | Data normalization, logistic regression         |
+| [Tracy Chen](https://github.com/TracyZexiChen)             | Data exploration, survival modelling            |
+| [Maria Gonzalez](https://github.com/mariafernandagonzalez) | Feature engineering, survival modelling         |
 
 ---
 
