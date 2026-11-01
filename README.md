@@ -2,12 +2,12 @@
 
 ### 👥 **Team Members**
 
-| Name                | GitHub Handle                                                      | Contributions                                   |
-|---------------------|--------------------------------------------------------------------|-------------------------------------------------|
-| Naya Singhania      | [@nayasinghania](https://github.com/nayasinghania)                 | Feature analysis, data pipeline, tree ensembles |
-| Jocelyn Lew         | [@JocelynLew](https://github.com/JocelynLew)                       |                                                 |
-| Tracy Chen          | [@TracyZexiChen](https://github.com/TracyZexiChen)                 |                                                 |
-| Maria Gonzalez      | [@mariafernandagonzalez](https://github.com/mariafernandagonzalez) |                                                 |
+| Name                                                         | Contributions                                           |
+|--------------------------------------------------------------|---------------------------------------------------------|
+| [Naya Singhania](https://github.com/nayasinghania)           | Feature analysis, data pipeline, tree ensembles         |
+| [Jocelyn Lew](https://github.com/JocelynLew)                 |                                                         |
+| [Tracy Chen](https://github.com/TracyZexiChen)               |                                                         |
+| [Maria Gonzalez](https://github.com/mariafernandagonzalez)   |                                                         |
 
 ---
 
@@ -49,10 +49,10 @@ Not only does this project have real-world potential, but it will give us the ha
 
 ## 📊 **Data Exploration**
 - The OPTN Kidney Transplant Waitlist dataset was used, provided in a GZIP archive of 20.3 MB, containing 494,862 rows and 38 columns. 
-* Data exploration and preprocessing approaches
-* Insights from your Exploratory Data Analysis (EDA)
-* Challenges and assumptions when working with the dataset(s)
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+- Data exploration and preprocessing approaches
+- Insights from your Exploratory Data Analysis (EDA)
+- Challenges and assumptions when working with the dataset(s)
+- Plots, charts, heatmaps, feature visualizations, sample dataset images
 
 ---
 
@@ -65,36 +65,36 @@ Not only does this project have real-world potential, but it will give us the ha
 - These models were evaluated on ...
 
 ### Logistic Regression
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+- Model(s) used (e.g., CNN with transfer learning, regression models)
+- Feature selection and Hyperparameter tuning strategies
+- Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
 
 ### Survival Modelling
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+- Model(s) used (e.g., CNN with transfer learning, regression models)
+- Feature selection and Hyperparameter tuning strategies
+- Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
 
 ---
 
 ## 📈 **Results & Key Findings**
 
 ### Tree Ensembles
-* Performance metrics (e.g., Accuracy, F1 score, RMSE)
-* How your model performed
-* Insights from evaluating model fairness
-* Visualizations: Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+- Performance metrics (e.g., Accuracy, F1 score, RMSE)
+- How your model performed
+- Insights from evaluating model fairness
+- Visualizations: Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
 
 ### Logistic Regression
-* Performance metrics (e.g., Accuracy, F1 score, RMSE)
-* How your model performed
-* Insights from evaluating model fairness
-* Visualizations: Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+- Performance metrics (e.g., Accuracy, F1 score, RMSE)
+- How your model performed
+- Insights from evaluating model fairness
+- Visualizations: Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
 
 ### Survival Modelling
-* Performance metrics (e.g., Accuracy, F1 score, RMSE)
-* How your model performed
-* Insights from evaluating model fairness
-* Visualizations: Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+- Performance metrics (e.g., Accuracy, F1 score, RMSE)
+- How your model performed
+- Insights from evaluating model fairness
+- Visualizations: Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
 
 ---
 
