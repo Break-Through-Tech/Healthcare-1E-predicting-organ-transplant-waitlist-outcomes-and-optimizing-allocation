@@ -111,7 +111,7 @@ Not only does this project have real-world potential, but it will give us the ha
 
 ## 🙏 **Acknowledgements**
 
-Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+Thank you to our challenge advisor and coach Beth Parnell for guiding us, supporting us, and keeping us on track in this project.
 
 ---
 
