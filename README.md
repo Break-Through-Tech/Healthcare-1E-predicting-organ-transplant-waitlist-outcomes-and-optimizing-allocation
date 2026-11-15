@@ -115,4 +115,4 @@ Thank you to our challenge advisor and coach Beth Parnell for guiding us, suppor
 
 ---
 
-*This project is licensed under the [name of license] License.*
+*This project is licensed under the [MIT License](https://github.com/Break-Through-Tech/Healthcare-1E-predicting-organ-transplant-waitlist-outcomes-and-optimizing-allocation/blob/main/LICENSE).*
