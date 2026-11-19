@@ -66,9 +66,20 @@ Not only does this project have real-world potential, but it will give us the ha
 - These models were evaluated on accuracy, precision, recall, F1 score, and ROC-AUC
 
 ### Logistic Regression
-- Model(s) used (e.g., CNN with transfer learning, regression models)
-- Feature selection and Hyperparameter tuning strategies
-- Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+*Models Used*
+- Logistic regression (scikit-learn) as an interpretable baseline, predicting death or removal as too sick within 365 days of listing.
+- Splines for age and BMI, so their effects can be curved.
+  
+*Feature selection and hyperparameter tuning*
+- Removed fields recorded after listing (`dialysis_started_after_listing`, `ON_DIALYSIS`, `A2A2B_ELIGIBILITY`) and replaced them with `on_dialysis_at_listing`.
+- Added missing-value flags (cPRA, BMI), log dialysis time, two age interactions and prior listings; an ablation table measured each change separately.
+- Tuned `C` (0.001 to 10) with 3-fold patient-grouped cross-validation on PR-AUC; `C` = 0.1 selected, with little difference across values.
+  
+*Training setup*
+- Only patients with a full year of follow-up (listed by July 3, 2025).
+- 80/20 train/test split grouped by patient: 353,804 train, 88,278 test; 1-year adverse rate about 3.9%.
+- Metrics: ROC-AUC, PR-AUC, Brier score, top-decile lift, calibration and subgroup AUC.
+- Baseline: v1 scored ROC-AUC 0.6925, partly from leaked fields; without them it is 0.6801, and the final model reaches 0.6822.
 
 ### Survival Modelling
 - Model(s) used (e.g., CNN with transfer learning, regression models)
