@@ -114,10 +114,27 @@ Not only does this project have real-world potential, but it will give us the ha
 
 ### Model Limitations
 
+### Logistic Regression
+- The model sees only what's known on the day a patient joins the waitlist. It has no lab values, no other medical conditions and no updates after listing. This information limit capped ROC-AUC at about 0.68. Splines, interactions, tuning C and longer prediction windows didn't move it.
+- Only 3.9% of patients have an adverse event within a year. The model sorts patients into risk levels well (observed risk rises from about 1% to 10% across risk deciles), but it can't pick out which individuals will have an event (PR-AUC 0.088, Brier skill about 2%).
+- Patients transplanted within the year are labelled 0, so groups or regions that get transplanted faster look lower-risk. The region and race/ethnicity odds ratios can't be read as differences in clinical risk.
+- The 1-year window misses most adverse events. For 2015 listings, 22.9% eventually had an adverse event but only 4.0% had one within a year. Listings from 2025–2026 are excluded because they don't have a full year of follow-up.
+- BMI values outside 10–80 were replaced with the median. The two strongest risk signals are missing-data flags (`bmi_missing_or_invalid`, `functional_scale_unknown`), which likely mark incomplete records or patients too unwell to assess. They don't cause risk.
+- The model ranks risk less well for ETHCAT 2 (AUC 0.637 vs 0.684–0.698 for other groups). Blood type AB has too few events (111) to know whether its lower AUC is real.
+
 ### What Would Be Done Differently
+
+### Logistic Regression
+- Check every feature for leakage before modelling. `dialysis_started_after_listing` and `ON_DIALYSIS` were recorded after listing, and they made up about 0.012 of the v1 ROC-AUC. A "known on listing day?" check for each column would have caught them early.
+- Keep missing-value flags during preprocessing. Filling cPRA and BMI with the median hid which values were missing, and the raw file had to be reloaded to get that back.
+- Do all preprocessing inside the training pipeline. The BMI median was computed on the full dataset before the split. It's a small effect, but imputation should be learned from training rows only, like scaling was.
+- Set fairness targets and run subgroup checks up front. Report confidence intervals on the overall metrics too, and use repeated patient-grouped cross-validation instead of a single split.
 
 ### Additional Datasets / Techniques to Explore
 
+### Logistic Regression
+- Richer clinical data: (lab values, comorbidities such as diabetes, follow-up status updates) if available in the registry extract.
+- Updating predictions over time: re-score patients at 3 or 6 months using post-listing data that is legitimately available by then.
 ---
 
 ## 🙏 **Acknowledgements**
