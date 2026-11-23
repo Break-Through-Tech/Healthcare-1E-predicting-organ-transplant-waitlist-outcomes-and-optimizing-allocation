@@ -60,7 +60,7 @@ Not only does this project have real-world potential, but it will give us the ha
 
 ### Tree Ensembles
 - We used XGBoost and Random Forest tree ensemble classification models to predict the class for column `event_adverse`, which determines if a kidney transplant candidate will experience an adverse event prior to transplantation.
-- An 80/20 train test split was used with scaling to attempt to balance out class imbalance in the training set
+- An 80/20 train test split was used with scaling to deal with class imbalance
 - Across both models, `GridSearchCV` was used to efficiently experiment with a variety of hyperparameter combinations
 - We utilized `GridSearchCV` cross-validation functionality with 5 folds to help prevent overfitting
 - These models were evaluated on accuracy, precision, recall, F1 score, and ROC-AUC
